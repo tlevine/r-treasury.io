@@ -1,6 +1,6 @@
 {
   "name": "r-treasury.io",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Submit a sql query to treasury.io and return a data.frame",
   "main": "main.r",
   "scripts": {
