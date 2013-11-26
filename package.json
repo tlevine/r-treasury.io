@@ -1,6 +1,6 @@
 {
   "name": "r-treasury.io",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Submit a sql query to treasury.io and return a data.frame",
   "main": "main.r",
   "scripts": {
@@ -11,11 +11,14 @@
     "url": "https://github.com/tlevine/r-treasury.io"
   },
   "keywords": [
-    "r"
+    "r", "nprm"
   ],
-  "author": "Thomas Levine",
+  "author": {
+    "name": "Thomas Levine"
+  },
   "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/tlevine/r-treasury.io/issues"
-  }
+  },
+  "readme": "ERROR: No README data found!"
 }

@@ -15,7 +15,7 @@ library(utils)
 library(RJSONIO)
 library(RCurl)
 
-treasuryio <- function(sql) {
+treasury.io <- function(sql) {
   url = paste('https://api.treasury.io/cc7znvq/47d80ae900e04f2/sql/?q=', URLencode(sql), sep = '')
   handle <- getCurlHandle()
   body <- getURL(url, curl = handle)
@@ -28,3 +28,5 @@ treasuryio <- function(sql) {
     stop(body)
   }
 }
+
+module.exports <- treasury.io
